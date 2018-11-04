@@ -21,8 +21,9 @@ section {
     border-radius: 21px;
 }
 
-.col-sm-4:nth-child(2) .price-table {
+.col-sm-4:nth-child(n) .price-table:hover {
     transform: scale(1.1);
+    transition: .2s ease .2s;
 }
 
 .price-table .price-head {
