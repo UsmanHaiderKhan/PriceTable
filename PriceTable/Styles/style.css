@@ -1,1 +1,88 @@
-﻿
+﻿@import url('https://fonts.googleapis.com/css?family=Maven+Pro:500');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #9e02c5;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+section {
+    padding: 100px 0px;
+}
+
+.price-table {
+    overflow: hidden;
+    text-align: center;
+    margin: 20px;
+    background: #fff;
+    box-sizing: border-box;
+    box-shadow: inset 0 0 40px rgba(0, 0, 0, 0.2),0px 20px 50px rgba(0,0,0,.5);
+    border-radius: 21px;
+}
+
+.col-sm-4:nth-child(2) .price-table {
+    transform: scale(1.1);
+}
+
+.price-table .price-head {
+    padding: 50px;
+    background: linear-gradient(45deg, #f321d6, #5121f3);
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+    .price-table .price-head h4 {
+        margin: 0;
+        padding: 0;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: 700;
+    }
+
+    .price-table .price-head h2 {
+        margin: 0;
+        padding: 0;
+        font-size: 36px;
+        color: #fff;
+    }
+
+.price-content {
+    position: relative;
+}
+
+    .price-content ul {
+        position: relative;
+        padding: 20px 0px;
+    }
+
+        .price-content ul li {
+            list-style: none;
+            font-size: 16px;
+            text-transform: uppercase;
+            padding: 10px 0;
+            color: #777;
+            cursor: pointer;
+            border-left: 15px solid transparent;
+            border-left: 15px solid transparent;
+            transition: .5s;
+        }
+
+            .price-content ul li:hover {
+                border-left: 15px solid #9e20c5;
+                border-left: 15px solid #9e20c5;
+            }
+
+.price-button {
+    padding: 0 0 30px;
+}
+
+    .price-button a {
+        padding: 10px 40px;
+        background: linear-gradient(45deg, #f321d6, #5121f3);
+        color: #fff;
+        border-radius: 21px;
+        font-size: 18px;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
